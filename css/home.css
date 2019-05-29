@@ -1,0 +1,55 @@
+@import "variabeles/header.css";
+@import "variabeles/body.css";
+@import "variabeles/nav.css";
+@import "variabeles/constant.css";
+@import "variabeles/footer.css";
+
+#home {
+    background-color: var(--main-pink);
+    color: var(--main-light-gray);
+    border-radius: 20%
+}
+
+.fullmain {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+main {
+    width: 70rem;
+    min-width: 34.9rem;
+    max-width: 100%;
+    background-color: var(--main-purple)
+}
+
+.main_foto img {
+    width: 50vw;
+    min-width: 27rem;
+    border-radius: 2%;
+    margin: 0rem 8vw 4rem 12vw;
+    box-shadow: 10px 10px 10px -2px var(--main-dark-purple);
+}
+
+.main_tekst {
+    margin: 4rem 8vw 4rem 12vw;
+    padding: 1rem 2rem;
+    box-shadow: 10px 10px 10px -2px var(--main-dark-purple);
+    border-radius: 2%;
+    width: 45.5vw;
+    min-width: 23rem;
+    background-color: var(--main-light-gray);
+}
+
+.main_tekst p {
+    color: var(--main-black);
+    font-size: 13pt;
+    font-family: var(--font-family-oxygen);
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+

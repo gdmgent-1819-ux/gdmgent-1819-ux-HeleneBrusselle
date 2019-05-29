@@ -1,21 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Styleguide</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div class="sg-subtitle-containers">
+            <div class="container-kleur">
+                <div class="pink">
+                </div>
+                <p>RGB(199, 72, 97)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="light-purple">
+                </div>
+                <p>RGB(120, 82, 98)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="purple">
+                </div>
+                <p>RGB(112, 74, 89)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="dark-purple">
+                </div>
+                <p> RGB(102, 64, 79)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="light-gray">
+                </div>
+                <p> RGB(226, 226, 226)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="gray">
+                </div>
+                <p> RGB(176, 176, 176)
+                </p>
+            </div>
+            <div class="container-kleur">
+                <div class="black">
+                </div>
+                <p>RGB(42, 50, 53)
+                </p>
+            </div>
+        </div>
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <p class="oxygen">Primary font : Oxygen</p>
+        <p class="sans-serif">Secondary font : Arial, Helvetica, Sans-Serif</p>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <a href="" class="home">Home</a>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="" class="pijl">></a>
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <form class="personen">
+            Hoeveel personen?
+            <input type="number" name="personen" min="1" max="6">
+        </form>
+        <form class="dag">
+            Welke dag?<br>
+            <input type="date" name="dag"><br>
+        </form>
+        <form class="uur">
+            Welk uur?<br>
+            <input type="time" name="uur"><br>
+        </form>
+        </form class="naam">
+        Op welke naam?
+        <input type="text" name="naam" placeholder="Naam...">
+        </form>
+        <form class="email">
+        Op welke naam?
+        <input type="email" name="email" placeholder="E-mailadres">
+        </form>
+
+        <h2 class="sg-subtitle">Componenten</h2>
+        <p>Footer</p>
+        <footer>
+            <p>© 2010 - 2019 thepickyeater.be - Alle rechten voorbehouden - Website gemaakt door Hélène Brusselle</p>
+        </footer>
+        <p>Navigatie</p>
+        <nav>
+            <div class="contact">
+                <div>
+                    <p class="titel">Contactgegevens</p>
+                </div>
+                <div class="tekst">
+                    <p>Marktstraat 45</p>
+                    <p>1740, Ternat</p>
+                    <p>02 795 52 94</p>
+                    <p>thepickyeater@telenet.be</p>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact">
+                <div>
+                    <p class="titel">Openingsuren</p>
+                </div>
+                <div class="tekst">
+                    <p>Maandag : 11-21</p>
+                    <p>Dinsdag : gesloten</p>
+                    <p>Woensdag : 11-21</p>
+                    <p>Donderdag : 11-21</p>
+                    <p>Vrijdag : 10-23</p>
+                    <p>Zaterdag : 10-23</p>
+                    <p>Zondag : 11-21</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div>
+                    <p class="titel">Sluitingsdagen</p>
+                </div>
+                <div class="tekst">
+                    <p>15/07 tot en met 21/07</p>
+                </div>
+            </div>
+        </nav>
+    </div>
 </body>
+
 </html>

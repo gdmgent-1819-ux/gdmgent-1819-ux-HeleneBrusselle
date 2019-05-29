@@ -1,0 +1,222 @@
+.sg-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+    font-family: oxygen
+}
+
+.sg-subtitle-containers {
+    display: flex;
+    justify-content: space-between
+}
+
+.container-kleur {
+    display: flex;
+    flex-direction: column
+}
+
+.sg-subtitle p {
+    font-size: 0.8rem;
+}
+
+.sg-subtitle div {
+    margin: 1rem 1rem 0.2rem rem
+}
+
+.pink {
+    background-color: rgb(199, 72, 97);
+    height: 5rem;
+    width: 10rem
+}
+
+.light-purple {
+    background-color: rgb(120, 82, 98);
+    height: 5rem;
+    width: 10rem
+}
+
+.purple {
+    background-color: rgb(112, 74, 89);
+    height: 5rem;
+    width: 10rem
+}
+
+.dark-purple {
+    background-color: rgb(102, 64, 79);
+    height: 5rem;
+    width: 10rem
+}
+
+.light-gray {
+    background-color: rgb(226, 226, 226);
+    height: 5rem;
+    width: 10rem
+}
+
+.gray {
+    background-color: rgb(176, 176, 176);
+    height: 5rem;
+    width: 10rem
+}
+
+.black {
+    background-color: rgb(42, 50, 53);
+    height: 5rem;
+    width: 10rem
+}
+
+.oxygen {
+    font-family: oxygen;
+    letter-spacing: 1px;
+}
+
+.sans-serif{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color:rgb(42, 50, 53)
+}
+
+.home {
+    width: 1rem;
+    text-decoration: none;
+    color: var(--main-black);
+    padding: 0.5vw;
+    color: rgb(42, 50, 53)
+}
+
+.home:hover {
+    background-color: rgb(199, 72, 97);
+    color: rgb(226, 226, 226);
+    border-radius: 20%;
+}
+
+i {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 20pt
+}
+
+i:hover {
+    color: rgb(199, 72, 97)
+}
+
+.pijl{
+    background-color:rgb(42, 50, 53);
+    color:rgb(226, 226, 226);
+    padding:0rem 0.5rem;
+    border-radius:50%;
+    text-decoration: none;
+    font-size:15pt
+}
+
+.pijl:hover{
+    background-color:rgb(199, 72, 97)
+}
+
+input[type=text],
+input[type=number],
+input[type="email"] {
+    padding: 0.5rem;
+    font-size: 15pt;
+    margin-left: 2rem;
+    color: rgb(42, 50, 53);
+    margin-bottom:0.5rem
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="email"]:focus {
+    border: 1.5px solid rgb(42, 50, 53);
+    outline: none;
+    color: rgb(42, 50, 53);
+}
+
+.naam {
+    font-size: 20px;
+    color: rgb(42, 50, 53);
+}
+
+input[type="date"],
+input[type="time"] {
+    padding: 0.5rem;
+    font-size: 15pt;
+    color: rgb(42, 50, 53);
+    margin-top:1rem;
+    margin-bottom:1rem
+}
+
+footer {
+    background-color: rgb(226, 226, 226);
+    font-family: oxygen;
+    color:rgb(42, 50, 53);
+    min-width: 50rem;
+    max-width: 100%;
+}
+
+footer p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    padding: 1.5rem 0rem
+}
+
+nav {
+    width: 27vw;
+    min-width: 15rem;
+    max-width: 100%;
+    background-color: rgb(120, 82, 98);
+    font-family: oxygen;
+    margin: 0;
+    padding: 0;
+    color: rgb(226, 226, 226);
+    height: auto;
+    border-right: solid rgb(176, 176, 176) 1pt
+}
+
+nav p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact .titel {
+    padding: 2rem 1rem 1vw 2rem;
+    font-size: 15pt;
+}
+
+.contact .tekst p {
+    padding: 0rem 1rem 0.8rem 2rem;
+}
+
+.tekst a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    padding: 0rem 2rem 0rem 0rem;
+    font-size: 20pt
+}
+.tekst a:hover{
+    color:rgb(199, 72, 97)
+}

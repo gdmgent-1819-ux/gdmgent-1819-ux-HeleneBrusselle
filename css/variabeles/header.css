@@ -1,0 +1,51 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--main-light-gray);
+    min-width: 50rem;
+    max-width: 100%;
+    font-family: var(--font-family-oxygen);
+    font-size: 14pt;
+    font-size-adjust: 0.4
+}
+
+.header_logo img {
+    width: 18rem;
+    min-width: 50%;
+    max-width: 100%;
+    margin: 2rem 4vw
+}
+
+.header_rechts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem 1vw 0rem 6vw;
+    width: 70rem;
+    min-width: 35rem;
+    max-width: 100%;
+
+}
+
+.header_rechts_nav a {
+    margin: 0rem 2vw 0rem 3vw;
+    width: 20rem;
+    text-decoration: none;
+    color: var(--main-black);
+    padding: 0.5vw
+}
+
+.header_rechts_nav {
+    padding-bottom: 1.2rem;
+    border-bottom: solid var(--main-gray) 0.1vw;
+
+}
+
+.header_rechts_nav a:hover {
+    background-color: var(--main-pink);
+    color: var(--main-light-gray);
+    border-radius: 20%
+}
+
